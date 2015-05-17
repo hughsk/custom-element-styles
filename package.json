@@ -1,6 +1,6 @@
 {
   "name": "custom-element-styles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically inject styles into a custom element's Shadow DOM",
   "main": "index.js",
   "license": "MIT",
