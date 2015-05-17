@@ -60,7 +60,7 @@ const fs            = require('fs')
 const css = fs.readFileSync(require.resolve('./index.css'), 'utf8')
 
 const CustomElement = customElement()
-  .once('created', () => {
+  .once('created', function() {
     var h1 = document.createElement('h1')
     h1.innerText = 'hello world'
     this.createShadowRoot().appendChild(h1)
